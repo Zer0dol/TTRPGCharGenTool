@@ -1,0 +1,58 @@
+﻿<Page x:Class="TTRPG_Tool.pages.MenuPage"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:TTRPG_Tool.pages"
+      mc:Ignorable="d" 
+      d:DesignHeight="720" d:DesignWidth="1280" Background="#1e1e1e"
+      Title="MenuPage" Name="CurrentMenuPage">
+
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="20"/>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="20"/>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="20"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="20"/>
+        </Grid.RowDefinitions>
+        <ScrollViewer Grid.Row="1" Grid.Column="1" Grid.ColumnSpan="2">
+            <Grid>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="*"/>
+                    <RowDefinition Height="40"/>
+                    <RowDefinition Height="*"/>
+                </Grid.RowDefinitions>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*"/>
+                    <ColumnDefinition Width="40"/>
+                    <ColumnDefinition Width="*"/>
+                    <ColumnDefinition Width="20"/>
+                </Grid.ColumnDefinitions>
+                <Button Grid.Column="0" Grid.Row="0"
+                        x:Name="ShadowrunButton"
+                        Style="{StaticResource ImageButton}" Click="Shadowrun5EButtonClick">
+                    <Image Style="{StaticResource Shadowrun5EButton}"/>
+                </Button>
+                <Button Grid.Column="2" Grid.Row="0"
+                        x:Name="DnDButton"
+                        Style="{StaticResource ImageButton}" Click="DnD5EButtonClick">
+                    <Image Style="{StaticResource DnDButton}"/>
+                </Button>
+                <Button Grid.Column="0" Grid.Row="2"
+                        x:Name="CyberpunkButton"
+                        Style="{StaticResource ImageButton}" Click="Cyberpunk2020ButtonClick">
+                    <Image Style="{StaticResource CyberpunkButton}"/>
+                </Button>
+                <Button Grid.Column="2" Grid.Row="2"
+                        x:Name="WoDButton"
+                        Style="{StaticResource ImageButton}" Click="WoDButtonClick">
+                    <Image Style="{StaticResource WoDButton}"/>
+                </Button>
+            </Grid>
+        </ScrollViewer>
+    </Grid>
+</Page>
