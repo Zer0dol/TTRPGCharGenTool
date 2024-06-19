@@ -1,0 +1,21 @@
+{
+  "languagecode": "en_us",
+  "languagename": "English",
+  "UIMenuPage": "Home page",
+  "UIYes": "Yes",
+  "UINo": "No",
+  "UIReturnHome": "Return to Home Page",
+  "UIMinimizeButton": "Minimize",
+  "UIRestoreDown": "Restore down",
+  "UIMaximize": "Maximize",
+  "UICloseWindow": "Close window",
+  "UINewTab": "New tab",
+  "UITextClosingConfirmationTitle": "Closing confirmation",
+  "UITextClosingConfirmationPrompt": "Close last tab?",
+  "UISettingsButton": "Settings",
+  "UISettingsApplyLangButton": "Apply",
+  "UISettingsLanguage": "Language",
+  "UISettingsLanguageDesc": "Change the display language",
+  "UISettingsApp": "App",
+  "UISettingsCurrentVersion": "Current version: v0.1.0"
+}

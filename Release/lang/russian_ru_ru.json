@@ -1,0 +1,21 @@
+{
+  "languagecode": "ru_ru",
+  "languagename": "Русский",
+  "UIMenuPage": "Начальная страница",
+  "UIYes": "Да",
+  "UINo": "Нет",
+  "UIReturnHome": "На главную",
+  "UIMinimizeButton": "Свернуть",
+  "UIRestoreDown": "Свернуть в окно",
+  "UIMaximize": "Развернуть",
+  "UICloseWindow": "Закрыть окно",
+  "UINewTab": "Новая вкладка",
+  "UITextClosingConfirmationTitle": "Подтверждение закрытия",
+  "UITextClosingConfirmationPrompt": "Закрыть последнюю вкладку?",
+  "UISettingsButton": "Настройки",
+  "UISettingsApplyLangButton": "Применить",
+  "UISettingsLanguage": "Язык",
+  "UISettingsLanguageDesc": "Изменяет язык интерфейса",
+  "UISettingsApp": "Приложение",
+  "UISettingsCurrentVersion": "Текущая версия: v0.1.0"
+}
